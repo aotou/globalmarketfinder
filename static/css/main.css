@@ -1,0 +1,328 @@
+body {
+  color: #000;
+  font-family: arial, san-serif;
+  font-size: 13px;
+}
+
+#main {
+    width: 968px;
+    padding: 0 .8em;
+    margin-left: auto;
+    margin-right: auto
+}
+
+a img {
+  border: none;
+}
+
+a:link {
+    color: #4272DB;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4272DB;
+    text-decoration: none;
+}
+
+.oneBar {
+}
+
+.messageBar {
+  float: left;
+  width: 220px;
+}
+
+.info-statusbar,
+.error-statusbar {
+  background-color: #FFD363;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  margin-left: 35px;
+  margin-top: 6px;
+  padding: 5px;
+  border-bottom-left-radius: 3px 3px;
+  border-bottom-right-radius: 3px 3px;
+  border-top-left-radius: 3px 3px;
+  border-top-right-radius: 3px 3px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.info-statusbar {
+  color: #000;
+}
+
+.error-statusbar {
+  color: red;
+}
+
+.localeSelectorStyle {
+  float: right;
+}
+ 
+.landingPageHelpHeading {
+    color: #4684EE;
+    font-size: 14pt;
+    padding-top: 0.5em;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.requestPanel {
+    width: 100%;
+    border: solid 1px #d6d6d6;
+    border-spacing: 0
+}
+
+.requestPanelTitleRow {
+    vertical-align: bottom;
+    font-weight: bold;
+    background:
+        url(./requestPanelTitleBG.gif)
+        repeat-x center bottom;
+    height: 23px;
+    padding: 0 0 .3em .5em
+}
+
+.requestPanelTitleCell {
+  padding: 8px 8px 8px 8px;
+}
+
+.inputLanguageCell {
+    padding: 0.5em 0 0 0;
+    border-bottom: solid 1px #d6d6d6;
+    border-top: solid 1px #d6d6d6;
+}
+
+.inputKeywordsCell {
+    padding: 0.5em 0 0 0;
+    border: solid 1px #d6d6d6;
+}
+
+.filtersCell {
+    padding: 0.5em 0 0 0;
+    border-bottom: solid 1px #d6d6d6;
+    border-top: solid 1px #d6d6d6;
+}
+
+.actionButtonCell {
+    padding: 0 0 0 0;
+}
+
+.resultsSectionHeading {
+    color: #000000;
+    font-size: 14pt;
+    padding-top: 0.5em
+}
+
+#resultsTable {
+    align: center;
+    border-bottom: solid 1px #ccc
+}
+
+#resultsTable tr.countryRow:hover {
+    background-color: #FFFFB0;
+    cursor: pointer;
+}
+
+#resultsTable tr.languageRow:hover {
+    background-color: #FFFFB0;
+    cursor: pointer;
+}
+
+#resultsTable tr.countryRow td {
+    padding:4px 0px 4px 0px;
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable tr.countryRow td.navCell {
+    padding:4px 0px 4px 0px;
+    border-bottom:0px;
+}
+
+#resultsTable td.langTable {
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable .resultPanelTitleRow td {
+    font-weight: bold;
+    background-color: #e7e7e7;
+    border-bottom: 2px solid #d5d5d5;
+    text-align: center;
+    vertical-align: baseline;
+    padding: 4px 0px 4px 0px;
+    padding-left:20px;
+    white-space: nowrap;
+}
+
+#resultsTable .navCell {
+    padding-left:5px;
+    padding-right:15px;
+    border-bottom: 0px;
+    background-color:#FFFFFF;
+}
+
+#resultsTable .countryLinkCell {
+    padding-left:5px;
+    white-space: nowrap;
+}
+
+#resultsTable .languageLinkCell {
+    padding-left:5px;
+    white-space: nowrap;
+}
+
+#resultsTable .keywordCell {
+    padding-left:5px;
+    white-space: nowrap;
+}
+
+#keywordTable .keywordCell {
+    padding-left:5px;
+    white-space: nowrap;
+}
+
+#resultsTable tr.countryRow td.opportunityCell {
+    padding-left: 20px;
+}
+
+#resultsTable .opportunityCell {
+    text-align: center;
+    padding-left:20px;
+    white-space: nowrap;
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable .searchVolumeCell {
+    text-align: right;
+    padding-left:20px;
+    white-space: nowrap;
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable .costCell {
+    text-align: right;
+    padding-left:20px;
+    white-space: nowrap;
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable .competitionCell {
+    text-align: center;
+    padding-left:20px;
+    white-space: nowrap;
+    border-bottom:1px solid #d5d5d5;
+}
+
+#resultsTable tr.countryRow .competitionCell {
+    padding-left: 20px;
+}
+
+.keywordTable {
+    width: 100%;
+    border-bottom: solid 1px #ccc
+}
+
+#resultsTable .openRow td {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+#resultsTable .closedRow td {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.disclaimer {
+  background-color: #E7E7E7;
+}
+
+.tooltip-icon {
+  margin: 0px 5px 0px 5px;
+}
+
+.tooltip {
+  background-color: #FFF6C3;
+  width: 250px;
+  padding: 5px;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  border-color: #FFF0B2;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.keyword-label {
+  vertical-align: top;
+}
+
+.logo {
+  float: left;
+}
+
+.logo-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.keywords-overlimit-warning {
+  padding-bottom: 4px;
+  color: red;
+}
+
+.help-text {
+  padding-bottom: 4px;
+}
+
+#footerPanel {
+    text-align:center;
+    padding-top: 14px;
+}
+
+.landingPageHelpHeading {
+    padding-bottom: .8em;
+}
+
+.actionButtonCell {
+    padding-left:5px;
+    padding-bottom:5px;
+}
+
+.homePromos {
+    padding-top: 6px;
+    padding-bottom: .8em;
+}
+
+.homePromos td.promoIcon {
+    vertical-align:top;
+}
+
+.homePromos td.promoText {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.maptable td {
+    padding-left: 10px;
+    direction: ltr;
+}
+
+.innerPromoHeader {
+    font-size: 14pt;
+    font-weight:normal;
+}
+
+.innerPromoHeader {
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+.innerPromoText {
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
